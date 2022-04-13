@@ -1,0 +1,40 @@
+body {
+  font-family: 'Alata', sans-serif;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.top-section {
+  background-image: url('../images/desktop/image-hero.jpg');
+}
+
+/* Navigation Bar */
+
+.navbar {
+  color: hsl(0, 0%, 100%);
+}
+
+.navbar-brand {
+
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

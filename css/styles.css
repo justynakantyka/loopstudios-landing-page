@@ -16,7 +16,6 @@ body {
 /* Navigation Bar */
 
 .navbar {
-  color: hsl(0, 0%, 100%);
 }
 
 .navbar-brand {
@@ -28,7 +27,7 @@ body {
 }
 
 .nav-link {
-
+  color: hsl(0, 0%, 100%) !important;
 }
 
 .attribution {

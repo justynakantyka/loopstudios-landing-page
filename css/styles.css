@@ -1,6 +1,28 @@
+:root {
+  /* Colors */
+
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
+}
+
 body {
   font-family: 'Alata', sans-serif;
   font-size: 15px;
+}
+
+/* Headings */
+
+.big-heading {
+  width: 50%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-top: 5rem;
+  padding: 2rem;
+  border: 1px solid;
 }
 
 /* Title Section */
@@ -12,20 +34,10 @@ body {
 
 .top-section {
   background-image: url('../images/desktop/image-hero.jpg');
+  color: var(--white);
 }
 
 /* Navigation Bar */
-
-.navbar {
-}
-
-.navbar-brand {
-
-}
-
-.nav-item {
-
-}
 
 .nav-link {
   position: relative;

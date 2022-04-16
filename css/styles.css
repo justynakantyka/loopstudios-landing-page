@@ -1,5 +1,6 @@
 body {
   font-family: 'Alata', sans-serif;
+  font-size: 15px;
 }
 
 /* Title Section */
@@ -27,11 +28,24 @@ body {
 }
 
 .nav-link {
+  position: relative;
+  padding-right: 0.8rem !important;
+  padding-left: 0.8rem !important;
   color: hsl(0, 0%, 100%) !important;
 }
 
+.nav-link:hover:after {
+  position: absolute;
+  bottom: 0;
+  left: 33%;
+  border-bottom: 2px solid;
+  content: "";
+  width: 33%;
+}
+
 .attribution {
-  font-size: 11px; text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {

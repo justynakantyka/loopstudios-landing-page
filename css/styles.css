@@ -34,6 +34,7 @@ body {
 
 .top-section {
   background-image: url('../images/desktop/image-hero.jpg');
+  background-repeat: no-repeat;
   color: var(--white);
 }
 

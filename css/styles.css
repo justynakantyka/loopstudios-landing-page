@@ -25,10 +25,10 @@ body {
   border: 1px solid;
 }
 
-/* Title Section */
+/* Sections */
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
+.container-fluid {
+  padding: 3% 10% 7%;
   text-align: left;
 }
 
@@ -55,6 +55,11 @@ body {
   content: "";
   width: 33%;
 }
+
+.leader-img {
+  margin-top: 10%;
+}
+
 
 .attribution {
   font-size: 11px;

@@ -1,6 +1,5 @@
 :root {
   /* Colors */
-
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --dark-gray: hsl(0, 0%, 55%);
@@ -38,12 +37,6 @@ body {
   text-align: left;
 }
 
-.top-section {
-  background-image: url('../images/desktop/image-hero.jpg');
-  background-repeat: no-repeat;
-  color: var(--white);
-}
-
 /* Navigation Bar */
 
 .nav-link {
@@ -62,20 +55,30 @@ body {
   width: 33%;
 }
 
-.leader-img {
-  margin-top: 10%;
-  z-index: 1;
+/* Top Section */
+
+.top-section {
+  background-image: url('../images/desktop/image-hero.jpg');
+  background-repeat: no-repeat;
+  color: var(--white);
+}
+
+/* About Section */
+
+#about {
+  margin-top: 10rem;
 }
 
 .about-vr {
   position: relative;
-  left: 35rem;
-  top: -18rem;
+  left: 28rem;
+  margin-top: -18rem;
+  padding: 6rem 6rem 0;
   width: 35rem;
   background-color: var(--white);
-  padding: 6rem;
 }
 
+/* Footer */
 
 .attribution {
   font-size: 11px;

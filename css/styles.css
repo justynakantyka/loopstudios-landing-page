@@ -81,15 +81,18 @@ body {
 /* Products Section */
 .our-creations {
   margin-bottom: 4rem;
+  position: relative;
 }
 
 .our-creations .section-heading {
-  display: inline;
-  margin-right: 32rem;
+  display: inline-block;
 }
 
 .see-all-btn {
+  position: absolute;
+  right: 0;
   text-transform: uppercase;
+  vertical-align: right;
   width: 10%;
   background-color: var(--white);
   border: 1px solid var(--black);

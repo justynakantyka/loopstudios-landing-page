@@ -115,6 +115,10 @@ body {
   padding: 0 0.4rem 0.4rem;
 }
 
+.img-tile{
+  filter: brightness(70%);
+}
+
 /* Footer */
 
 .attribution {

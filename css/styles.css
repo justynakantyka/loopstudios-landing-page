@@ -32,13 +32,6 @@ body {
   font-size: 2rem;
 }
 
-/* Sections */
-
-.container-fluid {
-  padding: 3% 10% 7%;
-  text-align: left;
-}
-
 /* Navigation Bar */
 
 .nav-link {
@@ -60,17 +53,19 @@ body {
 /* Top Section */
 
 .top-section {
+  padding: 3% 10% 7%;
+  text-align: left;
   background-image: url('../images/desktop/image-hero.jpg');
   background-repeat: no-repeat;
   color: var(--white);
 }
 
-/* About Section */
-
-#about {
-  margin-top: 10rem;
+/* Other Sections */
+.middle-section {
+  padding: 10rem 10rem 0;
 }
 
+/* About Section */
 .about-vr {
   position: relative;
   left: 28rem;

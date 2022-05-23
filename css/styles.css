@@ -62,16 +62,17 @@ body {
 
 /* Other Sections */
 .middle-section {
+  position: relative;
   margin: 10rem 10rem 0;
 }
 
 /* About Section */
 .about-vr {
-  position: relative;
-  left: 28rem;
-  margin-top: -18rem;
-  padding: 6rem 6rem 0;
-  width: 33rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 6rem 0 0 6rem;
+  width: 27rem;
   background-color: var(--white);
 }
 

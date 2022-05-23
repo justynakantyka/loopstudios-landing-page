@@ -28,8 +28,10 @@ body {
 
 .section-heading {
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size:3rem;
+  line-height: 3rem;
   text-transform: uppercase;
-  font-size: 2rem;
 }
 
 /* Navigation Bar */
@@ -94,10 +96,17 @@ body {
   right: 0;
   text-transform: uppercase;
   vertical-align: right;
-  width: 10%;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.313rem;
   background-color: var(--white);
   border: 1px solid var(--black);
-  font-size: 14px;
+  padding: 0.813rem 2.375rem;
+}
+
+.see-all-btn:hover {
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .col-img {

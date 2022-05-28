@@ -124,14 +124,10 @@ body {
   text-transform: uppercase;
 }
 
-.col-img:hover {
-  opacity: 0.35;
-}
-
 #col-img-earth {
-  background-image: linear-gradient(to bottom, var(--gray-transparent), var(--black-transparent-brighter)), url('../images/desktop/image-deep-earth.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: linear-gradient(to bottom, var(--gray-transparent), var(--black-transparent-brighter)), url('../images/desktop/image-deep-earth.jpg');
   margin: 0 0.4rem 0.4rem 0;
 }
 
@@ -193,6 +189,11 @@ body {
 }
 
 /* Footer */
+footer {
+  background-color: var(--black);
+  color: var(--white);
+  margin-top: 11.5rem;
+}
 
 .attribution {
   font-size: 11px;

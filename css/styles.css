@@ -23,7 +23,7 @@ body {
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: 300;
-  margin-top: 5rem;
+  margin-top: 8.12rem;
   padding: 2rem;
   border: 1px solid;
 }
@@ -60,7 +60,7 @@ body {
 /* Sections */
 
 .top-section {
-  padding: 3% 10% 7%;
+  padding: 4.3rem 10.3rem 6.12rem;
   text-align: left;
   background-image: url('../images/desktop/image-hero.jpg');
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ body {
 }
 
 .middle-section {
-  margin: 10rem 10rem 0;
+  margin: 10rem 10.25rem 0;
 }
 
 .bottom-section {

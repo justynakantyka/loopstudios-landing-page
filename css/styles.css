@@ -5,6 +5,8 @@
   --dark-gray: hsl(0, 0%, 55%);
   --very-dark-gray: hsl(0, 0%, 41%);
   --gray-transparent: rgba(255, 255, 255, 0);
+  --light-gray-transparent: rgba(255, 255, 255, 0.55071);
+  --white-transparent: rgba(255, 255, 255, 0.75071);
   --black-transparent-brighter: rgba(0, 0, 0, 0.85);
   --black-transparent-darker: rgba(0, 0, 0, 0.5);
 }
@@ -146,7 +148,7 @@ body {
 }
 
 #col-img-earth:hover {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.55071), var(--dark-gray)), url('../images/desktop/image-deep-earth.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-deep-earth.jpg');
 }
 
 #col-img-night-arcade {
@@ -154,7 +156,7 @@ body {
 }
 
 #col-img-night-arcade:hover {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.55071), var(--dark-gray)), url('../images/desktop/image-night-arcade.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent),var(--white-transparent)), url('../images/desktop/image-night-arcade.jpg');
 }
 
 #col-img-soccer-team {
@@ -162,7 +164,7 @@ body {
 }
 
 #col-img-soccer-team:hover {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.55071), var(--dark-gray)), url('../images/desktop/image-soccer-team.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-soccer-team.jpg');
 }
 
 #col-img-grid {
@@ -170,7 +172,7 @@ body {
 }
 
 #col-img-grid:hover {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.55071), var(--dark-gray)), url('../images/desktop/image-grid.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-grid.jpg');
 }
 
 #col-img-from-above {
@@ -178,7 +180,7 @@ body {
 }
 
 #col-img-from-above:hover {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.55071), var(--dark-gray)), url('../images/desktop/image-from-above.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-from-above.jpg');
 }
 
 #col-img-pocket-borealis {
@@ -186,7 +188,7 @@ body {
 }
 
 #col-img-pocket-borealis:hover {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.55071), var(--dark-gray)), url('../images/desktop/image-pocket-borealis.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent))), url('../images/desktop/image-pocket-borealis.jpg');
 }
 
 #col-img-curiosity {
@@ -194,7 +196,7 @@ body {
 }
 
 #col-img-curiosity:hover {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.55071), var(--dark-gray)), url('../images/desktop/image-curiosity.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-curiosity.jpg');
 }
 
 #col-img-fisheye {
@@ -202,7 +204,7 @@ body {
 }
 
 #col-img-fisheye:hover {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.75071), var(--dark-gray)), url('../images/desktop/image-fisheye.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-fisheye.jpg');
 
 }
 
@@ -210,7 +212,7 @@ body {
   position: absolute;
   bottom: 2rem;
   left: 2.5rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2rem;
 }
 

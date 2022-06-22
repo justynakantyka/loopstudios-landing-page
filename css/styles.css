@@ -20,13 +20,13 @@ body {
 /* Headings */
 
 .big-heading {
-  width: 40rem;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 300;
-  margin-top: 8.12rem;
-  padding: 2rem;
+  line-height: 2.375rem;
+  margin-top: 10rem;
+  padding: 1.5rem;
   border: 1px solid;
 }
 
@@ -40,7 +40,7 @@ body {
 
 /* Navigation Bar */
 #top-logo {
- height: 2rem;
+ height: 1.5rem;
 }
 
 .nav-link {
@@ -62,10 +62,10 @@ body {
 /* Sections */
 
 .top-section {
-  padding: 4.3rem 10.3rem 6.12rem;
+  padding: 2.5rem 6% 6.12rem;
   text-align: left;
-  background-image: url('../images/desktop/image-hero.jpg');
-  background-repeat: no-repeat;
+  background: url('../images/mobile/image-hero.jpg') no-repeat center center;
+  background-size: cover;
   color: var(--white);
 }
 
@@ -188,7 +188,7 @@ body {
 }
 
 #col-img-pocket-borealis:hover {
-  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent))), url('../images/desktop/image-pocket-borealis.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-pocket-borealis.jpg');
 }
 
 #col-img-curiosity {
@@ -205,7 +205,6 @@ body {
 
 #col-img-fisheye:hover {
   background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-fisheye.jpg');
-
 }
 
 .product-title {
@@ -296,4 +295,27 @@ footer {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1100px) {
+  #top-logo {
+   height: 2rem;
+  }
+
+  /* Sections */
+
+  .top-section {
+    padding: 4.3rem 10.3rem 6.12rem;
+    background: url('../images/desktop/image-hero.jpg') no-repeat;
+  }
+
+  /* Headings */
+
+  .big-heading {
+    width: 40rem;
+    font-size: 4rem;
+    line-height: 4.375rem;
+    margin-top: 8.12rem;
+    padding: 2rem;
+  }
 }

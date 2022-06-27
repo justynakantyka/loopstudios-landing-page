@@ -20,53 +20,65 @@ body {
 /* Headings */
 
 .big-heading {
-  width: 40rem;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 300;
-  margin-top: 8.12rem;
-  padding: 2rem;
+  line-height: 2.375rem;
+  margin-top: 10rem;
+  padding: 1.5rem;
   border: 1px solid;
 }
 
 .section-heading {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  font-size:3rem;
+  font-size: 3rem;
   line-height: 3rem;
   text-transform: uppercase;
 }
 
 /* Navigation Bar */
 #top-logo {
- height: 2rem;
+ height: 1.5rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#navbar-top {
+  margin-top: 9.938rem;
+}
+
+.navbar {
+  padding: 0;
 }
 
 .nav-link {
   position: relative;
-  padding-right: 0.8rem !important;
-  padding-left: 0.8rem !important;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem !important;
+  font-weight: 300 !important;
+  line-height: 1.563rem !important;
   color: hsl(0, 0%, 100%) !important;
+  text-transform: uppercase;
 }
 
-.nav-link:hover:after {
-  position: absolute;
-  bottom: 0;
-  left: 33%;
-  border-bottom: 2px solid;
-  content: "";
-  width: 33%;
+.navbar-toggler-icon {
+  width: 1.5rem;
 }
 
 /* Sections */
 
 .top-section {
-  padding: 4.3rem 10.3rem 6.12rem;
+  padding: 2.5rem 1.5rem 6.12rem;
   text-align: left;
-  background-image: url('../images/desktop/image-hero.jpg');
-  background-repeat: no-repeat;
+  background: url('../images/mobile/image-hero.jpg') no-repeat center center;
+  background-size: cover;
   color: var(--white);
+
 }
 
 .middle-section {
@@ -188,7 +200,7 @@ body {
 }
 
 #col-img-pocket-borealis:hover {
-  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent))), url('../images/desktop/image-pocket-borealis.jpg');
+  background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-pocket-borealis.jpg');
 }
 
 #col-img-curiosity {
@@ -205,7 +217,6 @@ body {
 
 #col-img-fisheye:hover {
   background-image: linear-gradient(to bottom, var(--light-gray-transparent), var(--white-transparent)), url('../images/desktop/image-fisheye.jpg');
-
 }
 
 .product-title {
@@ -249,6 +260,14 @@ footer {
 #footer-logo {
   height: 1.5rem;
   margin-bottom: 0.375rem;
+}
+
+.navbar-toggler{
+  border-style: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 #navbar-bottom.navbar-collapse {
@@ -296,4 +315,51 @@ footer {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1100px) {
+  #top-logo {
+   height: 2rem;
+  }
+
+  /* Sections */
+
+  .top-section {
+    padding: 4.3rem 10.3rem 6.12rem;
+    background: url('../images/desktop/image-hero.jpg') no-repeat;
+  }
+
+  /* Headings */
+
+  .big-heading {
+    width: 40rem;
+    font-size: 4rem;
+    line-height: 4.375rem;
+    margin-top: 8.12rem;
+    padding: 2rem;
+  }
+
+  #navbar-top {
+    margin-top: 0;
+  }
+
+  .nav-link {
+    position: relative;
+    font-family: 'Alata', sans-serif;
+    font-size: 0.938rem !important;
+    font-weight: 400 !important;
+    line-height: 1.56rem;
+    text-transform: capitalize;
+    padding-right: 0.8rem !important;
+    padding-left: 0.8rem !important;
+  }
+
+  .nav-link:hover:after {
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    border-bottom: 2px solid;
+    content: "";
+    width: 33%;
+  }
 }

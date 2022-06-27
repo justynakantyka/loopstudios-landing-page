@@ -66,13 +66,8 @@ body {
   text-transform: uppercase;
 }
 
-.nav-link:hover:after {
-  position: absolute;
-  bottom: 0;
-  left: 33%;
-  border-bottom: 2px solid;
-  content: "";
-  width: 33%;
+.navbar-toggler-icon {
+  width: 1.5rem;
 }
 
 /* Sections */
@@ -342,6 +337,10 @@ footer {
     line-height: 4.375rem;
     margin-top: 8.12rem;
     padding: 2rem;
+  }
+
+  #navbar-top {
+    margin-top: 0;
   }
 
   .nav-link {

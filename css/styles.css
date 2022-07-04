@@ -82,7 +82,7 @@ body {
 }
 
 .middle-section {
-  margin: 10rem 10.25rem 0;
+  margin: 6rem 1.5rem 0;
 }
 
 .bottom-section {
@@ -97,10 +97,12 @@ body {
   position: relative;
 }
 
+.leader-img {
+  width: 80%;
+
+}
+
 .about-vr {
-  position: absolute;
-  right: 0;
-  bottom: 0;
   padding: 6rem 0 0 6rem;
   width: 33.813rem;
   background-color: var(--white);
@@ -361,5 +363,18 @@ footer {
     border-bottom: 2px solid;
     content: "";
     width: 33%;
+  }
+
+  .middle-section {
+    margin: 10rem 10.25rem 0;
+  }
+
+  .about-vr {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 6rem 0 0 6rem;
+    width: 33.813rem;
+    background-color: var(--white);
   }
 }

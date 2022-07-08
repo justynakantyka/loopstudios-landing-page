@@ -33,9 +33,10 @@ body {
 .section-heading {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 /* Navigation Bar */
@@ -102,13 +103,14 @@ body {
 }
 
 .about-vr {
-  padding: 6rem 0 0 6rem;
-  width: 33.813rem;
+  padding: 3rem 0 0;
+  width: 100%;
   background-color: var(--white);
 }
 
 .about-vr .description {
   color: var(--black-transparent-darker);
+  text-align: center;
 }
 
 /* Products Section */
@@ -375,5 +377,15 @@ footer {
     padding: 6rem 0 0 6rem;
     width: 33.813rem;
     background-color: var(--white);
+  }
+
+  .section-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+  }
+
+  .about-vr .description {
+    text-align: left;
   }
 }

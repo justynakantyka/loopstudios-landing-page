@@ -394,14 +394,20 @@ footer {
   }
 
   .see-all-btn {
+    position: absolute;
+    bottom: auto;
     right: 0;
-    bottom: 0;
+    left: auto;
     text-transform: uppercase;
-    vertical-align: right;
     font-size: 0.875rem;
     font-weight: 400;
     letter-spacing: 0.313rem;
     padding: 0.813rem 2.375rem;
+  }
+
+  .our-creations {
+    position: relative;
+    margin-bottom: 4rem;
   }
 
   .our-creations .section-heading {
@@ -484,10 +490,5 @@ footer {
     left: 2.5rem;
     font-size: 2rem;
     line-height: 2rem;
-  }
-
-  .our-creations {
-    position: relative;
-    margin-bottom: 4rem;
   }
 }

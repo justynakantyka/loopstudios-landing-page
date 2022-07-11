@@ -23,5 +23,4 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/justynakantyka/loopstudios-landing-page
-- Live Site URL: 
+- Live Site URL: https://justynakantyka.github.io/loopstudios-landing-page/

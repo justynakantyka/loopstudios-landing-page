@@ -19,7 +19,11 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+Desktop:\
+![](./screenshots/desktop1.jpg)
+![](./screenshots/desktop2.jpg)
+![](./screenshots/desktop3.jpg)
+![](./screenshots/desktop4.jpg)
 
 ### Links
 

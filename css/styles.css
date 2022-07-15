@@ -125,9 +125,12 @@ body {
 .see-all-btn {
   position: absolute;
   bottom: -4.625rem;
-  left: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 60%;
   text-transform: uppercase;
-  vertical-align: right;
   font-size: 0.875rem;
   font-weight: 400;
   letter-spacing: 0.313rem;
@@ -289,15 +292,15 @@ footer {
   text-transform: capitalize;
 }
 
-.bottom-section .navbar-collapse {
+.bottom-section .navbar {
   flex-grow: 0;
 }
 
-.bottom-section .navbar-collapse .nav-link {
+.bottom-section .navbar .nav-link {
   padding-left: 0 !important;
 }
 
-.bottom-section .navbar-collapse .nav-link:hover:after {
+.bottom-section .navbar .nav-link:hover:after {
   left: 25%;
 }
 
@@ -336,17 +339,6 @@ footer {
 }
 
 @media (min-width: 900px) {
-  #top-logo {
-   height: 2rem;
-  }
-
-  /* Sections */
-
-  .top-section {
-    padding: 4.3rem 10.3rem 6.12rem;
-    background: url('../images/desktop/image-hero.jpg') no-repeat;
-  }
-
   /* Headings */
 
   .big-heading {
@@ -357,12 +349,19 @@ footer {
     padding: 2rem;
   }
 
-  #navbar-top {
-    margin-top: 0;
+  .section-heading {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 
-  .navbar {
-    padding: 0;
+  /* Navigation Bar */
+
+  #top-logo {
+   height: 2rem;
+  }
+
+  #navbar-top {
+    margin-top: 0;
   }
 
   .nav-link {
@@ -370,7 +369,7 @@ footer {
     font-family: 'Alata', sans-serif;
     font-size: 0.938rem !important;
     font-weight: 400 !important;
-    line-height: 1.56rem;
+    line-height: 1.56rem !important;
     text-transform: capitalize;
     padding-right: 0.8rem !important;
     padding-left: 0.8rem !important;
@@ -385,10 +384,19 @@ footer {
     width: 33%;
   }
 
+  /* Sections */
+
+  .top-section {
+    padding: 4.3rem 10.3rem 6.12rem;
+    background: url('../images/desktop/image-hero.jpg') no-repeat;
+  }
+
   .middle-section {
     position: static;
     margin: 10rem 10.25rem 0;
   }
+
+  /* About Section */
 
   .about-vr {
     position: absolute;
@@ -396,30 +404,13 @@ footer {
     bottom: 0;
     padding: 6rem 0 0 6rem;
     width: 33.813rem;
-    background-color: var(--white);
-  }
-
-  .section-heading {
-    font-size: 3rem;
-    line-height: 3rem;
-    text-transform: uppercase;
   }
 
   .about-vr .description {
     text-align: left;
   }
 
-  .see-all-btn {
-    position: absolute;
-    bottom: auto;
-    right: 0;
-    left: auto;
-    text-transform: uppercase;
-    font-size: 0.875rem;
-    font-weight: 400;
-    letter-spacing: 0.313rem;
-    padding: 0.813rem 2.375rem;
-  }
+  /* Products Section */
 
   .our-creations {
     position: relative;
@@ -430,8 +421,14 @@ footer {
     display: inline-block;
   }
 
+  .see-all-btn {
+    bottom: 1.5rem;
+    right: 0;
+    width: 20%;
+    left: auto;
+  }
+
   .col-img {
-    position: relative;
     width: 16rem;
     height: 28.1rem;
   }
@@ -501,7 +498,6 @@ footer {
   }
 
   .product-title {
-    position: absolute;
     top: 22.125rem;
     left: 2.5rem;
     font-size: 2rem;
@@ -510,8 +506,6 @@ footer {
 
   /* Footer */
   footer {
-    background-color: var(--black);
-    color: var(--white);
     margin-top: 11.5rem;
   }
 
@@ -525,18 +519,6 @@ footer {
     margin: 10rem 10rem 0;
     padding-top: 2.75rem;
     padding-bottom: 2.63rem;
-  }
-
-  .bottom-section .navbar {
-    flex-grow: 0;
-  }
-
-  .bottom-section .navbar .nav-link {
-    padding-left: 0 !important;
-  }
-
-  .bottom-section .navbar .nav-link:hover:after {
-    left: 25%;
   }
 
   .social-media{

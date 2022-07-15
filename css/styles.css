@@ -98,8 +98,8 @@ body {
   position: relative;
 }
 
-.vr-mobile-img {
-  width: 100%;
+.vr-img {
+  max-width: 100%;
 }
 
 .about-vr {

@@ -388,8 +388,7 @@ footer {
 
   .top-section {
     padding: 4.3rem 10.3rem 6.12rem;
-    background: url('../images/desktop/image-hero.jpg') no-repeat;
-    filter: brightness(80%);
+    background-image: linear-gradient(to bottom, var(--gray-transparent), var(--black-transparent-brighter)), url('../images/desktop/image-hero.jpg');
   }
 
   .middle-section {

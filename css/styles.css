@@ -79,7 +79,6 @@ body {
   background: url('../images/mobile/image-hero.jpg') no-repeat center center;
   background-size: cover;
   color: var(--white);
-
 }
 
 .middle-section {
@@ -387,13 +386,19 @@ footer {
   /* Sections */
 
   .top-section {
-    padding: 4.3rem 10.3rem 6.12rem;
+    padding: 2.5rem 0 6.12rem;
     background-image: linear-gradient(to bottom, var(--gray-transparent), var(--black-transparent-brighter)), url('../images/desktop/image-hero.jpg');
+  }
+
+  .top-container {
+    margin: auto;
+    width: 60%;
   }
 
   .middle-section {
     position: static;
-    margin: 10rem 10.25rem 0;
+    margin: 10rem auto 0;
+    width: 60%;
   }
 
   /* About Section */
@@ -516,7 +521,8 @@ footer {
 
   .bottom-section {
     position: relative;
-    margin: 10rem 10rem 0;
+    margin: 10rem auto 0;
+    width: 60%;
     padding-top: 2.75rem;
     padding-bottom: 2.63rem;
   }

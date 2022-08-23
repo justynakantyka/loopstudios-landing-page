@@ -22,9 +22,6 @@ Users should be able to:
 Desktop:\
 ![](./screenshots/desktop1.jpg)
 ![](./screenshots/desktop2.jpg)
-![](./screenshots/desktop3.jpg)
-![](./screenshots/desktop4.jpg)
-![](./screenshots/desktop5.jpg)
 
 ### Links
 

@@ -20,8 +20,7 @@ Users should be able to:
 
 ### Screenshot
 Desktop:\
-![](./screenshots/desktop1.jpg)
-![](./screenshots/desktop2.jpg)
+![](./screenshots/desktop.jpg)
 
 ### Links
 

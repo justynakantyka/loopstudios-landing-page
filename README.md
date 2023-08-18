@@ -1,6 +1,6 @@
 # Loopstudios landing page - Frontend Mentor Challenge
 
-Live Site URL: https://justynakantyka.github.io/loopstudios-landing-page/
+Live Site URL: https://justynakantyka.github.io/loopstudios-landing-page/ \
 This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). 
 
 ## Table of contents

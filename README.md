@@ -26,7 +26,7 @@ Desktop:\
 \
 \
 Mobile:\
-![](./screenshots/mobile.png)
+<img src="./screenshots/mobile.png" alt="drawing" style="width:400px;"/>
 
 ### Links
 

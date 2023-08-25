@@ -1,6 +1,7 @@
-# Loopstudios landing page - Frontend Mentor Challenge
+# Loopstudios landing page
 
-Live Site URL: https://justynakantyka.github.io/loopstudios-landing-page/ \
+This repository contains the solution for the LoopStudios Landing Page challenge from Frontend Mentor. The challenge involves creating a responsive landing page for LoopStudios based on a provided design. The project showcases HTML, CSS, and possibly some JavaScript to achieve the desired layout and interactions. \
+<b>Live Site URL:</b> https://justynakantyka.github.io/loopstudios-landing-page/ \
 This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). 
 
 ## Table of contents
